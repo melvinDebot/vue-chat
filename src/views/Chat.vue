@@ -5,7 +5,7 @@
         <div class="card">
             <div class="card-body">
                 <p class="nomessages text-secondary" v-if="messages.length == 0">
-                    [No messages yet!]
+                    No messages yet!
                 </p>
                 <div class="messages" v-chat-scroll="{always: false, smooth: true}">
                     <div v-for="message in messages" :key="message.id">
